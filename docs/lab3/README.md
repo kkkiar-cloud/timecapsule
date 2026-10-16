@@ -32,7 +32,7 @@
 
 
 ###Скрин 1./Скрин 2. Показывает выбранную public-rt, её маршруты (включая 0.0.0.0/0 через Internet Gateway) и связии с публичными подсетями timecapsule-dev-public-a и timecapsule-dev-public-b
----
+
 
 
 
@@ -43,7 +43,7 @@
 <img width="2197" height="741" alt="Снимок экрана 2026-10-14 230058" src="https://github.com/user-attachments/assets/a7d5c304-184b-468e-b232-7691b53aaa6d" />
 
 ###Скрин 3./Скрин 4. Показывает вкладку Routes для private-rt, где виден только локальный маршрут (10.0.0.0/16) и связи с приватными подсетями timecapsule-dev-private-a и timecapsule-dev-private-b.
----
+
 
 
 
