@@ -31,7 +31,7 @@
 <img width="2559" height="1179" alt="Снимок экрана 2026-10-12 213727" src="https://github.com/user-attachments/assets/19563501-d926-43d1-a66e-b124343bfca5" />
 
 
-Скрин 1./Скрин 2. Показывает выбранную public-rt, её маршруты (включая 0.0.0.0/0 через Internet Gateway) и связии с публичными подсетями timecapsule-dev-public-a и timecapsule-dev-public-b
+###Скрин 1./Скрин 2. Показывает выбранную public-rt, её маршруты (включая 0.0.0.0/0 через Internet Gateway) и связии с публичными подсетями timecapsule-dev-public-a и timecapsule-dev-public-b
 ---
 
 
@@ -39,10 +39,10 @@
 
 <img width="2189" height="715" alt="Снимок экрана 2026-10-14 230025" src="https://github.com/user-attachments/assets/2b911a8b-1519-4b15-855d-3173110f7d9f" />
 
--
+
 <img width="2197" height="741" alt="Снимок экрана 2026-10-14 230058" src="https://github.com/user-attachments/assets/a7d5c304-184b-468e-b232-7691b53aaa6d" />
 
-Скрин 3./Скрин 4. Показывает вкладку Routes для private-rt, где виден только локальный маршрут (10.0.0.0/16) и связи с приватными подсетями timecapsule-dev-private-a и timecapsule-dev-private-b.
+###Скрин 3./Скрин 4. Показывает вкладку Routes для private-rt, где виден только локальный маршрут (10.0.0.0/16) и связи с приватными подсетями timecapsule-dev-private-a и timecapsule-dev-private-b.
 ---
 
 
