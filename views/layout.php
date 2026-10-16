@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // Page layout: header, flash messages, page content ($content), footer.
 // Variables: $title, $nav ('home' | 'wall' | 'notifications' | null), $content.
 
@@ -83,7 +83,7 @@ $navLink = function (string $key, string $href, string $label) use ($nav): strin
   <div class="container">
     <?php /* Shows which machine answered, which database host it uses and where files are stored. */ ?>
     Served by <code><?= e(gethostname()) ?></code> · DB: <code><?= e(config('DB_HOST', 'localhost')) ?></code> · Files: <code>local disk (<?= e(config('UPLOAD_DIR', 'storage/uploads')) ?>)</code>
-    <p>Made by Anna · LR3</p>
+    <p>Made by Anna | LR3</p>
   </div>
 </footer>
 
