@@ -28,7 +28,8 @@
 <img width="2559" height="1228" alt="Снимок экрана 2026-10-12 214030" src="https://github.com/user-attachments/assets/483d40ba-5eaa-4ded-85c8-7ba7c926640b" />
 
 -
-<img width="2189" height="715" alt="Снимок экрана 2026-10-14 230025" src="https://github.com/user-attachments/assets/ea6e06e5-b89c-4039-88c6-27b3d1a4c8ef" />
+<img width="2559" height="1179" alt="Снимок экрана 2026-10-12 213727" src="https://github.com/user-attachments/assets/19563501-d926-43d1-a66e-b124343bfca5" />
+
 
 Скрин 1./Скрин 2. Показывает выбранную public-rt, её маршруты (включая 0.0.0.0/0 через Internet Gateway) и связии с публичными подсетями timecapsule-dev-public-a и timecapsule-dev-public-b
 --
