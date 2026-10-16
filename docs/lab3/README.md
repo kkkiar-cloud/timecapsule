@@ -25,10 +25,11 @@
 ### Задание 3. Маршруты public-rt и private-rt и их связи с подсетями
 
 
-<img width="2559" height="1228" alt="Снимок экрана 2026-10-12 214030" src="https://github.com/user-attachments/assets/483d40ba-5eaa-4ded-85c8-7ba7c926640b" />
+<img width="2154" height="1054" alt="l2" src="https://github.com/user-attachments/assets/a53d3f4f-709a-4249-a4f3-a03e6e293376" />
+
 Рисунок 2. Таблица маршрутов `timecapsule-dev-public-rt`: маршрут `10.0.0.0/16` остаётся локальным, а `0.0.0.0/0` направлен через Internet Gateway.
 
-
+<img width="2559" height="1228" alt="Снимок экрана 2026-10-12 214030" src="https://github.com/user-attachments/assets/483d40ba-5eaa-4ded-85c8-7ba7c926640b" />
 
 <img width="2189" height="715" alt="Снимок экрана 2026-10-14 230025" src="https://github.com/user-attachments/assets/ea6e06e5-b89c-4039-88c6-27b3d1a4c8ef" />
 Рисунок 3. Таблица маршрутов `timecapsule-dev-private-rt` и её связь с приватными подсетями.
