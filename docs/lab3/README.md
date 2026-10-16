@@ -28,8 +28,10 @@
 
 ![Подтверждение выполнения](img/3.1.png)
 ![Подтверждение выполнения](img/3.2.png)
-Скрин 1./Скрин 2. Показывает выбранную public-rt, её маршруты (включая 0.0.0.0/0 через Internet Gateway) и связии с публичными подсетями timecapsule-dev-public-a и timecapsule-dev-public-b
 
+<br>
+Скрин 1./Скрин 2. Показывает выбранную public-rt, её маршруты (включая 0.0.0.0/0 через Internet Gateway) и связии с публичными подсетями timecapsule-dev-public-a и timecapsule-dev-public-b
+<br>
 
 ![Подтверждение выполнения](img/3.3.png)
 ![Подтверждение выполнения](img/3.4.png)
