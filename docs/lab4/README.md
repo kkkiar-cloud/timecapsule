@@ -190,8 +190,9 @@ S3 по умолчанию не переносит в Standard-IA объекты
 
 Изменения в репозитории:
 
-* Коммит Migrate file storage to Amazon S3: https://github.com/kkkiar-cloud/timecapsule/commit/330d078
-* Следующий коммит с SDK, настройками и подвалом: https://github.com/kkkiar-cloud/timecapsule/commits/main
+* Коммит Migrate file storage to Amazon S3: https://github.com/kkkiar-cloud/timecapsule/commit/330d078a52d3fa10c5f5e6658c453fb9648b8a15
+* Следующий коммит с SDK, настройками и подвалом: https://github.com/kkkiar-cloud/timecapsule/commit/94a020f3a33857a9f00a278597fe0699dad59845
+
 
 ## Задание 12. Деплой и проверка
 
@@ -263,28 +264,3 @@ S3 по умолчанию не переносит в Standard-IA объекты
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11. https://github.com/kkkiar-cloud/timecapsule/commit/330d078a52d3fa10c5f5e6658c453fb9648b8a15
-11. https://github.com/kkkiar-cloud/timecapsule/commit/94a020f3a33857a9f00a278597fe0699dad59845
