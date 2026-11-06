@@ -42,10 +42,23 @@ if (PHP_SAPI !== 'cli') {
     });
 }
 
-// Sessions are plain files in storage/sessions/.
+// Sessions are items in a DynamoDB table, so any server can handle any request.
+// The server has no access keys: the SDK takes temporary credentials from the IAM role.
 function start_session(): void
 {
-    session_save_path(ROOT_DIR . '/storage/sessions');
+    $client = new Aws\DynamoDb\DynamoDbClient([
+        'version' => 'latest',
+        'region'  => config('AWS_REGION', 'eu-central-1'),
+    ]);
+
+    // Table key is "id"; the TTL attribute "expires" is filled by the handler.
+    $handler = Aws\DynamoDb\SessionHandler::fromClient($client, [
+        'table_name'       => config('SESSIONS_TABLE', 'timecapsule-dev-sessions'),
+        'hash_key'         => 'id',
+        'session_lifetime' => 86400,
+    ]);
+    $handler->register();
+
     session_name('timecapsule_session');
     session_set_cookie_params([
         'httponly' => true,
